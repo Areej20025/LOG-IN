@@ -1,0 +1,80 @@
+body {
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+        background: url(foto.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container {
+        background-color: rgba(210,180,140,0.5);
+        padding: 30px;
+        width: 250px;
+        border: 1px solid #CCC;
+        border-radius: 10px;
+        box-shadow: 0px 5px 10px #AAA;
+        margin-top: 50px;
+    }
+
+    h1 {
+        color: saddlebrown;
+        font-size: 36px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .h2 {
+        font-size: 20px;
+        margin-top: 0;
+        padding: 5px;
+        text-align: center;
+        border: 1px solid #ddd;
+        font-weight: bold;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50%;
+    }
+
+    form label {
+        color: saddlebrown;
+        display: block;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        background-color: tan;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        font-size: 24px;
+        height: 50px;
+        margin-top: 20px;
+        transition: background-color 0.5s ease;
+        width: 100%;
+        text-align: center;
+    }
+
+    button:hover {
+        background-color: #663300;
+    }
+
+    form input[type="text"],
+    form input[type="password"] {
+        background-color: antiquewhite;
+        border: none;
+        border-radius: 9px;
+        color: black;
+        font-size: 10px;
+        height: 20px;
+        margin-bottom: 15px;
+        padding: 10px;
+        width: 90%;
+    }
